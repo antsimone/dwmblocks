@@ -6,13 +6,13 @@
  */
 
 static const Block blocks[] = {
-    /*Icon*/    /*Command*/     /*Update Interval*/     /*Update Signal*/
+    /*Icon*/ /*Command*/ /*Update Interval*/ /*Update Signal*/
 
-    {"" , ""                   , 0    , 4 },
-    {"" , CMD("status_wifi"  ) , 10   , 4 },
-    {"" , CMD("status_vol"   ) , 0    , 3 },
-    {"" , CMD("status_bat"   ) , 10   , 1 },
-    {"" , CMD("status_clock" ) , 60   , 2 },
+    {"" , ""           , 0    , 4 },
+    {"" , CMD("wifi" ) , 10   , 4 },
+    {"" , CMD("vol"  ) , 0    , 3 },
+    {"" , CMD("bat"  ) , 10   , 1 },
+    {"" , CMD("clk"  ) , 60   , 2 },
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
